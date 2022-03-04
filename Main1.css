@@ -1,0 +1,63 @@
+body{ height: 100vh;
+background-color: rgba(212, 236, 236, 0.849);
+margin: 0 auto;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+p{font-style: italic; font-size: 14px;
+    text-shadow: rgb(46, 45, 45);
+    margin-left: 12px;
+}
+.text {
+    display: flex; width: 90%;
+    flex-direction: row; 
+  margin-left: 0; text-align: center;
+  justify-content: space-between; padding: 1em;
+}
+.text a{
+    text-decoration: none;
+    color: black;
+}
+img{ display: flex;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%; margin-top: 50px;  margin-bottom: 50px;
+}
+form input{ 
+    background-color: #fff;
+    padding: 1em 5em;
+    display: flexbox;
+    border-style: none;
+    
+    text-align: start;  border-radius: 15%;
+}
+.site{ background-color:  rgba(195, 235, 235, 0.904);
+    display: flex;
+    flex-direction: column;
+    width: 30%; 
+    margin: auto;    border-radius: 10%;
+    margin-top: 50px; 
+    align-items: center;
+    border-style: none;
+    height: 95vh;
+}
+.email{border-radius: 15%;
+    background-color: #fff;
+  border-style: ridge;outline-style: none;
+   margin-bottom: 50px;
+
+}
+.password{ border-radius: 10%;  border-style: ridge;
+    background-color: #fff;  margin-bottom: 30px;
+}
+
+.button input {  border-style: ridge;
+    background-color: rgb(24, 31, 90);  border-radius: 10%;
+    padding: 1em 9em; color: white;
+}
+input[type='button'] ::placeholder{
+    text-align: right;
+}
+input.text{
+    text-align: left;
+}
